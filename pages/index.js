@@ -29,7 +29,7 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/customers/how-sonos-amplified-their-devex"
           >
             Read Article
           </Link>
@@ -40,7 +40,7 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/customers/washington-post-next.js-vercel-engineering-at-the-speed-of-breaking-news"
           >
             Read Article
           </Link>
@@ -51,18 +51,18 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/blog/a-better-developer-experience-makes-building-cruise-critic-more-efficient"
           >
             Read Article
           </Link>
         </div>
-        <div className="bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
+        <div className="hidden bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
           <h2 className="text-lg font-bold text-white dark:text-white mb-2 font-serif">
             Washington Post: Next.js + Vercel - Engineering at the Speed of Breaking News
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="#https://vercel.com/customers/washington-post-next.js-vercel-engineering-at-the-speed-of-breaking-news"
           >
             Read Article
           </Link>

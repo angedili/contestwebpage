@@ -19,7 +19,7 @@ export default function Component() {
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-white dark:text-white font-serif">Welcome, New York Times Team!</h1>
         <p className="text-xl text-white dark:text-gray-300 font-serif">
-          Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel
+          Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel!
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -29,7 +29,7 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/customers/how-sonos-amplified-their-devex"
           >
             Read Article
           </Link>
@@ -40,7 +40,7 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/customers/washington-post-next.js-vercel-engineering-at-the-speed-of-breaking-news"
           >
             Read Article
           </Link>
@@ -51,23 +51,11 @@ export default function Component() {
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
+            href="https://vercel.com/blog/a-better-developer-experience-makes-building-cruise-critic-more-efficient"
           >
             Read Article
           </Link>
         </div>
-        <div className="bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
-          <h2 className="text-lg font-bold text-white dark:text-white mb-2 font-serif">
-            Washington Post: Next.js + Vercel - Engineering at the Speed of Breaking News
-          </h2>
-          <Link
-            className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#"
-          >
-            Read Article
-          </Link>
-        </div>
-      </div>
       <div className="text-center mt-10">
         <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
           Ready to Evaluate a Switch to Vercel for The New York Times?

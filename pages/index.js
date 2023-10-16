@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Component() {
   return (
-    <div className="relative bg-black dark:bg-gray-800 p-10 min-h-screen">
+    <div className="relative bg-black p-10 min-h-screen">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-white dark:text-white font-serif">Welcome, New York Times Team!</h1>
         <p className="text-xl text-white dark:text-gray-300 font-serif">

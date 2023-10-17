@@ -76,8 +76,11 @@ export default function Component() {
           aria-label="Book a Consultation"
           className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black"
           variant="default"
-        >
-          Book a Consultation
+       <Link href="https://calendly.com/d/29d-qff-z3s/vercel">
+    <Button>
+      Schedule Your Consultation
+    </Button>
+</Link>
         </Button>
       </div>
       <div className="absolute bottom-0 inset-x-0 flex justify-center">

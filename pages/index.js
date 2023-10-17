@@ -56,13 +56,13 @@ export default function Component() {
             Read Article
           </Link>
         </div>
-        <div className="hidden bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
+        <div className="bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
           <h2 className="text-lg font-bold text-white dark:text-white mb-2 font-serif">
-            Washington Post: Next.js + Vercel - Engineering at the Speed of Breaking News
+            Parachute improves site page load times by 60% in one month
           </h2>
           <Link
             className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline"
-            href="#https://vercel.com/customers/washington-post-next.js-vercel-engineering-at-the-speed-of-breaking-news"
+            href="https://vercel.com/customers/parachute-improves-site-page-load-times-by-60-in-one-month"
           >
             Read Article
           </Link>

@@ -69,23 +69,18 @@ export default function Component() {
         </div>
       </div>
       <div className="text-center mt-10">
-        <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
-          Ready to Evaluate a Switch to Vercel for The New York Times?
-        </p>
-        <Button
-          aria-label="Book a Consultation"
-          className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black"
-          variant="default"
-       <Link href="https://calendly.com/d/29d-qff-z3s/vercel">
-    <Button>
-      Schedule Your Consultation
-    </Button>
-</Link>
-        </Button>
-      </div>
-      <div className="absolute bottom-0 inset-x-0 flex justify-center">
-        <div className="w-16 h-16 border-t-16 border-white border-l-8 border-transparent border-r-8 border-transparent" />
-      </div>
-    </div>
-  )
-}
+  <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
+    Ready to Evaluate a Switch to Vercel for The New York Times?
+  </p>
+  <Link href="https://calendly.com/d/29d-qff-z3s/vercel">
+    <a>
+      <Button
+        aria-label="Book a Consultation"
+        className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black"
+        variant="default"
+      >
+        Schedule Your Consultation
+      </Button>
+    </a>
+  </Link>
+</div>

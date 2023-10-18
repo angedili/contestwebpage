@@ -80,7 +80,7 @@ export default function Component() {
         variant="default"
       >
         Schedule Your Consultation
-      </Button>
+          </Button>
     </a>
-  </Link>
+          </Link>
 </div>

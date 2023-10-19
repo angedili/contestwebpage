@@ -77,14 +77,7 @@ export default function Component() {
     <a className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" aria-label="Book a Consultation">
         Schedule Your Consultation
     </a>
-</Link>
-<div className="mt-8">
-    <Link href="https://contestwebpage.vercel.app/staples">
-      <a className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline">Page 1</a>
-    </Link>
-    <Link href="https://contestwebpage.vercel.app/Costco">
-      <a className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline">Page 2</a>
-    </Link>              
+</Link>          
   </div>
   </div>
   )}

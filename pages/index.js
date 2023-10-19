@@ -17,7 +17,7 @@ export default function Component() {
   return (
     <div className="relative bg-black p-10 min-h-screen">
       <div className="text-center mb-10 max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-white dark:text-white font-serif">&#9650; Welcome, New York Times Team! &#9650;</h1>
+        <h1 className="text-4xl font-bold text-white dark:text-white font-serif">&#9650; Welcome, Staples Team! &#9650;</h1>
         <p className="text-xl text-white dark:text-gray-300 font-serif">
           Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel
         </p>
@@ -77,7 +77,7 @@ export default function Component() {
     <a className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" aria-label="Book a Consultation">
         Schedule Your Consultation
     </a>
-</Link>          
+</Link>
   </div>
   </div>
   )}

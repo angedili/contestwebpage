@@ -78,6 +78,13 @@ export default function Component() {
         Schedule Your Consultation
     </a>
 </Link>
+<div className="mt-8">
+    <Link href="https://contestwebpage.vercel.app/staples">
+      <a className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline">Page 1</a>
+    </Link>
+    <Link href="https://contestwebpage.vercel.app/Costco">
+      <a className="text-white hover:text-gray-300 dark:text-white dark:hover:text-gray-300 font-bold italic underline">Page 2</a>
+    </Link>              
   </div>
   </div>
   )}

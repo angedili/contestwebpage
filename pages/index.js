@@ -69,6 +69,7 @@ export default function Component() {
         </div>
       </div>
       <div className="text-center mt-10 max-w-4xl mx-auto">
+               <h1 className="text-8xl font-bold text-white dark:text-white font-serif">&#9650;</h1>
   <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
     Ready to Evaluate a Switch to Vercel for The New York Times?
   </p>

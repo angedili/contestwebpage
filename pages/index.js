@@ -17,7 +17,7 @@ export default function Component() {
   return (
     <div className="relative bg-black p-10 min-h-screen">
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold text-white dark:text-white font-serif">&#9658; Welcome, New York Times Team! &#9658;</h1>
+        <h1 className="text-4xl font-bold text-white dark:text-white font-serif">&#9650; Welcome, New York Times Team! &#9650;</h1>
         <p className="text-xl text-white dark:text-gray-300 font-serif">
           Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel
         </p>

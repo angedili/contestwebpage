@@ -22,7 +22,7 @@ export default function Component() {
           Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div className="bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
           <h2 className="text-lg font-bold text-white dark:text-white mb-2 font-serif">
             How Sonos Amplified Their DevEx

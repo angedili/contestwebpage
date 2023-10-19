@@ -16,13 +16,13 @@ import { Button } from "@/components/ui/button"
 export default function Component() {
   return (
     <div className="relative bg-black p-10 min-h-screen">
-      <div className="text-center mb-10">
+      <div className="text-center mb-10 max-w-4xl">
         <h1 className="text-4xl font-bold text-white dark:text-white font-serif">&#9650; Welcome, New York Times Team! &#9650;</h1>
         <p className="text-xl text-white dark:text-gray-300 font-serif">
           Explore Vercel Customer Stories and Discover the Benefits of a Switch to Vercel
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl">
         <div className="bg-black dark:bg-gray-700 shadow-lg rounded-lg p-6">
           <h2 className="text-lg font-bold text-white dark:text-white mb-2 font-serif">
             How Sonos Amplified Their DevEx
@@ -68,7 +68,7 @@ export default function Component() {
           </Link>
         </div>
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-10 max-w-4xl">
   <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
     Ready to Evaluate a Switch to Vercel for The New York Times?
   </p>

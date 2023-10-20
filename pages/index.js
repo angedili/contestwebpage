@@ -1,17 +1,5 @@
 import * as React from "react"
-
-import Image from 'next/image'
-import map from '../public/map.svg'
-import MyV0Component from './myV0Component'
-import TestComponent from './testComponent'
-
-
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/DYqOzAG2i4J
- */
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TestComponent() {
+function MyV0Component() {
     return (
     <div class="hidden">
         <h1>You can't see me but I'm going to be a v0 component.</h1>
@@ -8,4 +8,4 @@ function TestComponent() {
     )
 }
 
-export default TestComponent;
+export default MyV0Component;

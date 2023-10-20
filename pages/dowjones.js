@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Component() {
+export default function DownJones() {
   return (
     <div className="relative bg-black p-10 min-h-screen">
       <div className="text-center mb-10 max-w-4xl mx-auto">
@@ -56,14 +56,14 @@ export default function Component() {
         </div>
       </div>
       <div className="text-center mt-10 max-w-4xl mx-auto">
-               <h1 className="text-8xl font-bold text-white dark:text-white font-serif">&#9650;</h1>
-  <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
-    Ready to Evaluate a Switch to Vercel for Staples?
-  </p>
-<Link href="https://calendly.com/d/29d-qff-z3s/vercel" className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" >
-  Schedule Your Consultation
-</Link>
+        <h1 className="text-8xl font-bold text-white dark:text-white font-serif">&#9650;</h1>
+      <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
+        Ready to Evaluate a Switch to Vercel for Staples?
+      </p>
+      <Link href="https://calendly.com/d/29d-qff-z3s/vercel" className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" >
+        Schedule Your Consultation
+      </Link>
+    </div>
   </div>
-  </div>
-  )}
+)}
 

@@ -1,19 +1,7 @@
 import * as React from "react"
-
-import Image from 'next/image'
-import map from '../public/map.svg'
-import MyV0Component from './myV0Component'
-import TestComponent from './testComponent'
-
-
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/DYqOzAG2i4J
- */
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 
-export default function Component() {
+export default function Costco() {
   return (
     <div className="relative bg-black p-10 min-h-screen">
       <div className="text-center mb-10 max-w-4xl mx-auto">
@@ -69,13 +57,13 @@ export default function Component() {
         </div>
       </div>
       <div className="text-center mt-10 max-w-4xl mx-auto">
-               <h1 className="text-8xl font-bold text-white dark:text-white font-serif">&#9650;</h1>
-  <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
-    Ready to Evaluate a Switch to Vercel for Costco?
-  </p>
-<Link href="https://calendly.com/d/29d-qff-z3s/vercel" className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" >
-  Schedule Your Consultation
-</Link>
+        <h1 className="text-8xl font-bold text-white dark:text-white font-serif">&#9650;</h1>
+      <p className="text-xl text-white dark:text-gray-300 mb-4 font-serif">
+        Ready to Evaluate a Switch to Vercel for Costco?
+      </p>
+      <Link href="https://calendly.com/d/29d-qff-z3s/vercel" className="px-8 py-3 bg-white text-black rounded-md hover:bg-gray-200 dark:bg-gray-400 dark:hover:bg-gray-300 dark:text-black" >
+        Schedule Your Consultation
+      </Link>
+    </div>
   </div>
-  </div>
-  )}
+)}
